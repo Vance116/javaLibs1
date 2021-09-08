@@ -17,14 +17,18 @@ public class Practice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       String firstName;
-     
-       Scanner myScanner = new Scanner(System.in);
+  
+       Scanner sc = new Scanner(System.in);
       
        System.out.println("Hello! What is your name?");
-       firstName = myScanner.nextLine();
+       String firstName1 = sc.next();
       
-       System.out.println("Hi there "  + firstName + ", How are you today?");     
+       System.out.println("Awesome, " + firstName1 + 
+               ", what is your favorite color?");  
+       String favColor1 = sc.next();
+               
+    
+      
    
      
     }
