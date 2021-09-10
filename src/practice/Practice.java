@@ -20,13 +20,19 @@ public class Practice {
 
         Scanner sc = new Scanner(System.in);
 
-        double num1, num2, x1 = 3;
+        int x, y;
+        
+        x = 5;
+                
+        y = 5 ;       
+        
+        double num1, num2;
 
         double answer;
 
         num1 = 5;
 
-        num2 = x1;
+        num2 = 3;
 
         answer = num2 / num1;
 
@@ -61,13 +67,7 @@ public class Practice {
 
         System.out.println("Where are you from?");
         String home1 = sc.next();
-
-        System.out.println("Give me a number");
-        int x = sc.nextByte();
-
-        System.out.println("One more number!");
-        int y = sc.nextByte();
-
+        
         System.out.println("What is a name that you do not like");
         String badName1 = sc.next();
 
@@ -76,29 +76,29 @@ public class Practice {
         + " armor that is made from the finest silk and wielding"
         + " the " + weapon1 + " of " + home1 + ". Which"
         + " is said to be only held by the mightiest of"
-        + " warriors! As " + firstName1 + " rode into battle on his"
+        + " \nwarriors! As " + firstName1 + " rode into battle on his"
         + " noble steed, known as " + firstName2 + ". The " + favAnimal1 + " is"
         + " well known as THE BRINGER OF DEATH! As the pair advanced into the "
-        + "heart of " + city1 + ". " + firstName1 + " quickly realized that "
+        + "\nheart of " + city1 + ". " + firstName1 + " quickly realized that "
         + "this battle would not be as easy as they initially assumed. As "
         + "waves of enemies grew increasingly more difficult and with his "
-        + "only allie in the battle," + firstName2 + ", being swarmed and struck "
+        + "\nonly allie in the battle," + firstName2 + ", being swarmed and struck "
         + "down in front of " + firstName1 + "'s eyes! This "
         + "enraged " + firstName1 + ", bringing a strength to " + firstName1
         + " That was never before thought possible! They stroke down every"
-        + " enemy in sight until his true enemy " + badName1 + ""
+        + " \nenemy in sight until his true enemy " + badName1 + ""
         + " appearead! The enemy was"
         + " repulsive and was scarred from years of fighting,"
         + " SUDDENLY " + badName1 + " runs at " + firstName1 + " fueled "
-        + "by the anger of his bestfriend and noble steed, " + firstName1
+        + "\nby the anger of his bestfriend and noble steed, " + firstName1
         + " was able to block the attack and counter... Their "
         + "battle lasted " + x + " days and " + y + " nights,"
         + "All of the sudden, both of them drop to their knees overwhelmed "
-        + "with feelings of " + emotion1 + ", " + emotion2 + ", "
+        + "\nwith feelings of " + emotion1 + ", " + emotion2 + ", "
         + "and " + emotion3 + " as " + badName1 + "swung their weapon just "
-        + "missing " + firstName1 + " by " + answer + "millimeters!"
+        + "\nmissing " + firstName1 + " by " + answer + " millimeters! "
         + firstName1 + " ended the battle with a quick strike, deafeating"
-        + "their oopenent," + badName1 + "...");
+        + " their oopenent," + badName1 + "...");
 
     }
 
